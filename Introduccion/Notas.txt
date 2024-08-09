@@ -1,0 +1,140 @@
+ACCESOS CETAM PUCP
+https://paideia.pucp.edu.pe/ (PAIDEIA)
+https://campusvirtual.pucp.edu.pe/ (PAIDEIA)
+jorge.cywdt@gmail.com
+Lilia123*
+Liliana123* (Cambio de contraseña)
+
+Curso de Capacitación en Python Aplicado a Data Science
+https://drive.google.com/drive/folders/1WFses7HGeA6BpDcZCRxpMJXYEHvU_mb0 (Carpeta compartida en Google Drive para ver los videos de las clases)
+
+---- Clase01 ----
+
+Recursos
+    - Qué es INSIGHT en Marketing y Cómo Encontrarlo
+    https://youtu.be/G7QnFV-vm0I?feature=shared
+
+    - ¿Qué es un INSIGHT? 👀🤩Definición, características e importancia
+    https://youtu.be/pIXuUpn5INA?feature=shared
+
+---- Clase02 ----
+
+Repositorios datasets
+    - https://github.com/CristhianCastro25/Programacion_Analisis_Exploratorio
+    - https://github.com/DanielSaromo/Courses_DataFiles
+
+Recursos
+    - ¿Cual es la diferencia entre escalar, vector, matriz, tensores en Numpy?
+    ```
+    En NumPy, una popular biblioteca de Python para el cálculo numérico, se utilizan varios tipos de estructuras de datos para representar diferentes tipos de cantidades matemáticas: escalares, vectores, matrices y tensores. Aquí tienes una explicación de cada uno:
+
+    1. Escalar:
+        Un escalar es un solo valor numérico. En NumPy, un escalar es un elemento individual de un tipo de dato numérico como un entero, flotante, etc.
+        Ejemplo en NumPy: a = np.array(5), donde a es un escalar.
+
+    2. Vector:
+        Un vector es una secuencia ordenada de números y se representa como una array unidimensional en NumPy.
+        Ejemplo en NumPy: v = np.array([1, 2, 3]), donde v es un vector.
+
+    3. Matriz:
+        Una matriz es una array bidimensional, es decir, un arreglo de números dispuestos en filas y columnas.
+        Ejemplo en NumPy: m = np.array([[1, 2, 3], [4, 5, 6]]), donde m es una matriz de 2x3.
+
+    4. Tensor:
+        Un tensor es una generalización de matrices a más de dos dimensiones. Puede ser tridimensional, cuatridimensional, etc.
+        Ejemplo en NumPy: t = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]]), donde t es un tensor tridimensional.
+
+    En resumen, la principal diferencia entre estos términos en NumPy es el número de dimensiones que tienen:
+        Escalar: 0 dimensiones.
+        Vector: 1 dimensión.
+        Matriz: 2 dimensiones.
+        Tensor: 3 o más dimensiones.
+        Estos conceptos son fundamentales en matemáticas y computación, y NumPy proporciona una manera eficiente de manipular estas estructuras para una variedad de aplicaciones científicas y de ingeniería.
+    ```
+
+---- Clase03 ----
+
+Repositorios datasets
+    - https://github.com/CristhianCastro25/Programacion_Analisis_Exploratorio
+    - https://github.com/joseluisq/peru-geojson-datasets
+
+Recursos
+    - CORRELACIÓN y REGRESIÓN LINEAL con EJEMPLOS
+    https://youtu.be/kYCyNrPToTc?feature=shared
+
+    - Correlación de Pearson [Coeficiente de correlación de Pearson]
+    https://youtu.be/VF7SLPx1NnY?feature=shared
+
+    - Correlación de rangos de Spearman [Explicado de forma sencilla]
+    https://youtu.be/bTr48I8vQd4?feature=shared
+
+---- Clase06 ----
+
+Repositorios datasets
+    - https://github.com/Hari365/customer-segmentation-python
+    - https://github.com/CristhianCastro25/Programacion_Analisis_Exploratorio
+
+---- Notas ----
+
+Clases mas importantes
+    - Clase03-VisualizacionDatos-Matplotlib-Seaborn-TiposVariables-ResumenNumericoDatos
+    - Clase05-TransformacionDatosPCA
+    - Clase06-AprendizajeNoSupervisado-Clustering
+    - Clase07-AprendizajeNoSupervisado-ModelosSimplesRegresion
+    - Clase08-ModelosClasificacion
+
+Modulos instalados
+	# Para poder ver los modulos instalados
+    conda list
+
+    # Para poder ver un modulo especifico y su version
+    conda list <modulo>
+
+    # Limpiar cache de conda
+    conda clean -all
+
+    # Clase03
+        # plotly
+        # https://anaconda.org/anaconda/plotly/
+        # https://plotly.com/python/
+        conda install plotly=5.15.0                     # Ejecutar en Anaconda Prompt ----> La version que se instala en Google Colab es 5.15.0
+                                                                                            Anaconda viene por defecto con la version 5.9.0
+                                                                                            Ejecutar el comando actualizara el modulo
+        # mapclassify
+        # https://anaconda.org/anaconda/mapclassify/
+        # https://pysal.org/mapclassify/
+        conda install mapclassify=2.6.1                 # Ejecutar en Anaconda Prompt ----> La version que se instala en Google Colab es 2.6.1
+
+        # geopandas
+        # https://anaconda.org/conda-forge/geopandas/
+        # https://geopandas.org/en/stable/
+        conda install -c conda-forge geopandas=0.13.2   # Ejecutar en Anaconda Prompt ----> La version que se instala en Google Colab es 0.13.2
+
+    # Clase04
+        # mlxtend
+        # https://anaconda.org/conda-forge/mlxtend/
+        # https://github.com/rasbt/mlxtend/
+        conda install -c conda-forge mlxtend=0.22.0     # Ejecutar en Anaconda Prompt ----> La version que se instala en Google Colab es 0.22.0
+
+        # apyori
+        # https://pypi.org/project/apyori/
+        # https://github.com/ymoch/apyori/
+        %pip install apyori==1.1.2                      # Ejecutar en Notebook (Jupyter o Google Colab) / Anaconda Prompt ----> La version que se instala en Google Colab es 1.1.2
+                                                                                                                                El modulo no existe en anaconda.org
+    # Clase06
+        # pillow
+        # https://pypi.org/project/pillow/
+        # https://github.com/python-pillow/Pillow/
+        %pip install pillow==10.2.0                     # Ejecutar en Notebook (Jupyter o Google Colab) / Anaconda Prompt ----> La version que se instala en Google Colab es 9.4.0
+                                                                                                                                Anaconda viene por defecto con la version 10.2.0
+                                                                                                                                El modulo no existe en anaconda.org
+Cuentas GitHub
+    - https://github.com/CristhianCastro25
+    - https://github.com/DanielSaromo
+    - https://github.com/joseluisq
+    - https://github.com/Hari365
+
+Notas
+    - Los archivos .ipynb de las clases                ----> los modifique ----> para obtener todos los resultados de las celdas (no todas las celdas estaban ejecutadas)
+    - Los archivos .ipynb de los desafios              ----> los modifique ----> para responder las preguntas
+    - Los archivos .ipynb de los desafios solucionados ----> no los modifique
